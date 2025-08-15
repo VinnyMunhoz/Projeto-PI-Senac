@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DU.HYPE</title>
+  <link rel="stylesheet" href="InfoProd.css">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="home.html">
+        <img src="/Imagens/DU.HYPE logo.png" alt="Logo da Empresa">
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="marcas.html">MARCAS</a></li>
+      <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="🔎">
+    </div>
+  </nav>
+  </header>
+
+  <div class="container">
+    <div class="left-column">
+      <div class="main-image-box">
+        <span class="arrow left" onclick="trocarImagem(-1)">‹</span>
+        <img id="main-image" src="imagens/campus-1.jpg" alt="Imagem do Tênis">
+        <span class="arrow right" onclick="trocarImagem(1)">›</span>
+      </div>
+      <div class="thumbnail-row">
+        <div class="thumbnail"><img src="imagens/campus-2.jpg" alt="Miniatura 1" onclick="selecionarImagem(0)">
+        </div>
+        <div class="thumbnail"><img src="imagens/campus-3.jpg" alt="Miniatura 2" onclick="selecionarImagem(1)">
+        </div>
+        <div class="thumbnail"><img src="imagens/campus-4.jpg" alt="Miniatura 3" onclick="selecionarImagem(2)">
+        </div>
+        <div class="thumbnail"><img src="imagens/campus-5.jpg" alt="Miniatura 4" onclick="selecionarImagem(3)">
+        </div>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="product-title">Campus 00s Grey Three Carbon</div>
+      <div class="stars">★★★★★</div>
+      <div class="old-price">DE R$ 800,00</div>
+      <div class="price">R$ 750,00</div>
+      <div class="buttons">
+        <button class="btn-comprar">COMPRAR</button>
+        <div class="cart-icon">
+          <img src="Imagens/carrinho.png" alt="Adicionar ao carrinho">
+        </div>
+      </div>
+
+      <div class="semelhantes">
+        <h4>PRODUTOS SEMELHANTES</h4>
+        <div class="semelhantes-container">
+          <a class="semelhante-item" href="InfoProdAd2.html">
+            <img src="Imagens/thieves-0.jpg" alt="Air Force 1">
+          </a>
+          <a class="semelhante-item" href="InfoProd3.html">
+            <img src="Imagens/corteiz-0.jpg" alt="Nike TN">
+          </a>
+          <a class="semelhante-item" href="InfoProd.html">
+            <img src="imagens/air max 90 - 2.jpg" alt="Nike Dunk">
+          </a>
+          <a class="semelhante-item" href="InfoProdAd4.html">
+            <img src="imagens/Ultraboost-0.jpg" alt="Jordan 11">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <article class="sobreProd">
+    <h2>Sobre o Produto</h2>
+    <p>Depois de conquistar as quadras, o tênis adidas Campus não demorou muito para ser adotado fora delas também. Esta
+      versão transforma o modelo icônico original com materiais, cores e proporções modernas. Possui cabedal em couro
+      premium forrado com moletinho macio, tudo isso sobre uma entressola off-white, uma conexão clara com o legado do
+      Campus.
+
+      O adidas Campus 00s Grey Three Carbon Off White, lançado em 03/06/2025 na cor cinza, já está disponível na
+      Du.Hype. Compre com confiança e garantia de originalidade!
+    </p>
+  </article>
+  <script src="InfoProdAd.js"></script>
+</body>
+
+</html>
